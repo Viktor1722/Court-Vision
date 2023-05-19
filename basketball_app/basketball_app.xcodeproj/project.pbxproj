@@ -76,6 +76,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18CB70182A166CE1006BFA03 /* workoutCamera */ = {
+			isa = PBXGroup;
+			children = (
+				18CB70102A13F623006BFA03 /* VideoCapture.swift */,
+				18CB700E2A13F457006BFA03 /* CameraWorkout.swift */,
+				18CB70142A151EED006BFA03 /* Perdictor.swift */,
+			);
+			path = workoutCamera;
+			sourceTree = "<group>";
+		};
 		18D112D02A0817F8005EBE28 /* List */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,9 +101,7 @@
 				18CB70162A164C04006BFA03 /* perfect.mp3 */,
 				18CB70122A151E81006BFA03 /* BasketballFreetrowWorkout 1.mlmodel */,
 				18D112D32A082D6B005EBE28 /* Training.swift */,
-				18CB700E2A13F457006BFA03 /* CameraWorkout.swift */,
-				18CB70102A13F623006BFA03 /* VideoCapture.swift */,
-				18CB70142A151EED006BFA03 /* Perdictor.swift */,
+				18CB70182A166CE1006BFA03 /* workoutCamera */,
 				18BE60282A126A9F001E052D /* Video.swift */,
 				18FE43C02A03D7F100BE525A /* ContentView.swift */,
 				18C27C272A0CED69004A7D84 /* Explore.swift */,
