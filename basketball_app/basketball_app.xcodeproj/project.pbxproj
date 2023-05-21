@@ -21,8 +21,9 @@
 		18CB700F2A13F457006BFA03 /* CameraWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB700E2A13F457006BFA03 /* CameraWorkout.swift */; };
 		18CB70112A13F623006BFA03 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB70102A13F623006BFA03 /* VideoCapture.swift */; };
 		18CB70132A151E81006BFA03 /* BasketballFreetrowWorkout 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 18CB70122A151E81006BFA03 /* BasketballFreetrowWorkout 1.mlmodel */; };
-		18CB70152A151EED006BFA03 /* Perdictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB70142A151EED006BFA03 /* Perdictor.swift */; };
+		18CB70152A151EED006BFA03 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB70142A151EED006BFA03 /* Predictor.swift */; };
 		18CB70172A164C04006BFA03 /* perfect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CB70162A164C04006BFA03 /* perfect.mp3 */; };
+		18CB701C2A1953AF006BFA03 /* WorkoutOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB701B2A1953AF006BFA03 /* WorkoutOverview.swift */; };
 		18D112C32A057EBA005EBE28 /* WorkoutList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D112C22A057EBA005EBE28 /* WorkoutList.swift */; };
 		18D112C92A07D380005EBE28 /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D112C82A07D380005EBE28 /* WorkoutsView.swift */; };
 		18D112CD2A0809BD005EBE28 /* TodayPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D112CC2A0809BD005EBE28 /* TodayPlan.swift */; };
@@ -49,15 +50,16 @@
 		18CB700C2A12E7A7006BFA03 /* Shooting.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Shooting.mp4; path = ../../../../../Downloads/Shooting.mp4; sourceTree = "<group>"; };
 		18CB700E2A13F457006BFA03 /* CameraWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraWorkout.swift; sourceTree = "<group>"; };
 		18CB70102A13F623006BFA03 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
-		18CB70122A151E81006BFA03 /* BasketballFreetrowWorkout 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "BasketballFreetrowWorkout 1.mlmodel"; path = "../../../../../../../var/folders/_l/h6nf4fl91gdfy660ffpvhnrc0000gq/T/com.apple.dt.CreateML.app/sharing/drag/0EE58E18-E247-42E9-BD57-4961835EB9A4/BasketballFreetrowWorkout 1.mlmodel"; sourceTree = "<group>"; };
-		18CB70142A151EED006BFA03 /* Perdictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perdictor.swift; sourceTree = "<group>"; };
+		18CB70122A151E81006BFA03 /* BasketballFreetrowWorkout 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "BasketballFreetrowWorkout 1.mlmodel"; sourceTree = "<group>"; };
+		18CB70142A151EED006BFA03 /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
 		18CB70162A164C04006BFA03 /* perfect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = perfect.mp3; sourceTree = "<group>"; };
+		18CB701B2A1953AF006BFA03 /* WorkoutOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutOverview.swift; sourceTree = "<group>"; };
 		18D112C22A057EBA005EBE28 /* WorkoutList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutList.swift; sourceTree = "<group>"; };
 		18D112C82A07D380005EBE28 /* WorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
 		18D112CC2A0809BD005EBE28 /* TodayPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayPlan.swift; sourceTree = "<group>"; };
 		18D112CE2A081439005EBE28 /* TodayPlanList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayPlanList.swift; sourceTree = "<group>"; };
 		18D112D32A082D6B005EBE28 /* Training.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training.swift; sourceTree = SOURCE_ROOT; };
-		18FE43BB2A03D7F100BE525A /* basketball_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = basketball_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE43BB2A03D7F100BE525A /* Court Vision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Court Vision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FE43BE2A03D7F100BE525A /* basketball_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basketball_appApp.swift; sourceTree = "<group>"; };
 		18FE43C02A03D7F100BE525A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18FE43C22A03D7F200BE525A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,9 +81,11 @@
 		18CB70182A166CE1006BFA03 /* workoutCamera */ = {
 			isa = PBXGroup;
 			children = (
+				18CB70122A151E81006BFA03 /* BasketballFreetrowWorkout 1.mlmodel */,
 				18CB70102A13F623006BFA03 /* VideoCapture.swift */,
 				18CB700E2A13F457006BFA03 /* CameraWorkout.swift */,
-				18CB70142A151EED006BFA03 /* Perdictor.swift */,
+				18CB701B2A1953AF006BFA03 /* WorkoutOverview.swift */,
+				18CB70142A151EED006BFA03 /* Predictor.swift */,
 			);
 			path = workoutCamera;
 			sourceTree = "<group>";
@@ -99,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				18CB70162A164C04006BFA03 /* perfect.mp3 */,
-				18CB70122A151E81006BFA03 /* BasketballFreetrowWorkout 1.mlmodel */,
 				18D112D32A082D6B005EBE28 /* Training.swift */,
 				18CB70182A166CE1006BFA03 /* workoutCamera */,
 				18BE60282A126A9F001E052D /* Video.swift */,
@@ -137,7 +140,7 @@
 		18FE43BC2A03D7F100BE525A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18FE43BB2A03D7F100BE525A /* basketball_app.app */,
+				18FE43BB2A03D7F100BE525A /* Court Vision.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,7 +185,7 @@
 			);
 			name = basketball_app;
 			productName = basketball_app;
-			productReference = 18FE43BB2A03D7F100BE525A /* basketball_app.app */;
+			productReference = 18FE43BB2A03D7F100BE525A /* Court Vision.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -254,10 +257,11 @@
 				187DB20E2A0E99AE00F3E41C /* Warmups.swift in Sources */,
 				18FE43CD2A03D8AD00BE525A /* CustomTabBar.swift in Sources */,
 				18D112D42A082D6B005EBE28 /* Training.swift in Sources */,
+				18CB701C2A1953AF006BFA03 /* WorkoutOverview.swift in Sources */,
 				18D112C32A057EBA005EBE28 /* WorkoutList.swift in Sources */,
 				18CB70112A13F623006BFA03 /* VideoCapture.swift in Sources */,
 				18FE43BF2A03D7F100BE525A /* basketball_appApp.swift in Sources */,
-				18CB70152A151EED006BFA03 /* Perdictor.swift in Sources */,
+				18CB70152A151EED006BFA03 /* Predictor.swift in Sources */,
 				18C27C282A0CED69004A7D84 /* Explore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,7 +406,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "hoop.basketball-app";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Court Vision";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -432,7 +436,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "hoop.basketball-app";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Court Vision";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

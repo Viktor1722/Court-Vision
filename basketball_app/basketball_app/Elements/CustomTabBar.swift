@@ -62,15 +62,7 @@ struct CustomTabBar: View {
                                             .font(.system(size: 22))
                                     }
                                 )
-                                .overlay(
-                                    Image("figure")
-                                        .resizable()
-                                        .frame(width: 50, height: 50)
-                                        .offset(x: figurePosition.x, y: figurePosition.y)
-                                        .onAppear {
-                                            figurePosition = currentFigurePosition(for: selectedTab)
-                                        }
-                                )
+                              
                         }
                     }
                         Spacer()

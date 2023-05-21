@@ -14,7 +14,7 @@ class VideoCapture: NSObject {
     
     let predictor = Predictor()
     
-   override init() {
+   override init(){
        super.init()
        
         guard let captureDevice = AVCaptureDevice.default(for: .video),
@@ -24,7 +24,6 @@ class VideoCapture: NSObject {
        
         captureSession.sessionPreset = AVCaptureSession.Preset.high
         captureSession.addInput(input)
-        
         captureSession.addOutput(videoOutput)
         videoOutput.alwaysDiscardsLateVideoFrames = true
         
@@ -34,6 +33,16 @@ class VideoCapture: NSObject {
         captureSession.startRunning()
         videoOutput.setSampleBufferDelegate(self, queue: DispatchQueue(label: "videoDispatchQueue"))
     }
+    func getDevice(position: AVCaptureDevice.Position) -> AVCaptureDevice? {
+          let devices: NSArray = AVCaptureDevice.devices() as NSArray;
+          for de in devices {
+              let deviceConverted = de as! AVCaptureDevice
+              if(deviceConverted.position == position){
+                 return deviceConverted
+              }
+          }
+         return nil
+      }
 }
 
 

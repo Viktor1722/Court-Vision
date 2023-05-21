@@ -32,7 +32,7 @@ struct WorkoutsView: View {
                                        .frame(width: 20, height: 20)
                                        .padding(.leading, -2)
                                        .foregroundColor(.white)
-                                   Text("600kcal")
+                                   Text("60 Points")
                                        .font(.system(size: 20))
                                        .foregroundColor(.white)
                                    Spacer()

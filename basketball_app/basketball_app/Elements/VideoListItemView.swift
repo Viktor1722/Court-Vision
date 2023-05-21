@@ -42,7 +42,7 @@ struct VideoListItemView: View {
                         
                 }
             }
-            .frame(width: 350)
+            .frame(width: 330)
             .padding(10)
             .background(Color.gray.opacity(0.3))
             .cornerRadius(15)
