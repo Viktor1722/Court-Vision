@@ -6,7 +6,7 @@ The app is more focused in taking new and allready experienced players to improv
 
 ## Design 
 
-In terms of designing i was aming for clean and minimalistic approach in order to be inline with Apple's design guidlines. Furthermore I have oppted for a design that is going to make the user a daily plan and will give a sence of comfort in the app. The homepage i have uncluded the most popular workouts and sections with workouts that are unfinised then there is the explore page where the user can unclude workoits to it daily activity. Click here to see the design file: https://www.figma.com/file/MVDysO4qyWORPMlMYtyJXy/DUO-APP-IOS?type=design&node-id=69%3A8&mode=design&t=2b6pGrwOdQY9JVuj-1
+In terms of designing i was aming for clean and minimalistic approach in order to be inline with Apple's design guidlines. Furthermore I have oppted for a design that is going to make the user a daily plan and will give a sence of comfort in the app. The homepage i have uncluded the most popular workouts and sections with workouts that are unfinised then there is the explore page where the user can unclude workoits to it daily activity. Click here to see the [design file] (https://www.figma.com/file/MVDysO4qyWORPMlMYtyJXy/DUO-APP-IOS?type=design&node-id=69%3A8&mode=design&t=2b6pGrwOdQY9JVuj-1)
 
 Since i hade only four weeks for developing the app i had my concentraition on implemention a shooting exersize. 
 
