@@ -18,4 +18,7 @@ In order to make the possible i had to use machene learning, i had to recod myse
 ![Screenshot 2023-05-22 at 15 51 05](https://github.com/Viktor1722/Court-Vision/assets/102257718/a1361888-47f2-4e02-b645-cbc7d60c01ce)
 
 
-After that it was time to put the model in the code and test it i can say that the reseult came out greate for demonstration purpouses i have left the areas where the model is looking in order to say that the motion was cussesfull 
+After that it was time to put the model in the code and test it i can say that the reseult came out greate for demonstration purpouses i have left the areas where the model is looking in order to say that the motion was cussesfull bellow you can see small demo of the app and and how the Manchen learning model works: 
+
+
+
