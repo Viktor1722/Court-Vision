@@ -14,4 +14,5 @@ Since i hade only four weeks for developing the app i had my concentraition on i
 ## Coding 
 
 In order to make the possible i had to use machene learning, i had to recod myself multiblie times doing the shooting move then this large data set was put in a software called ML Create that comes stock with the MacBook. The dataset was put in it in order to teach the model to accuratle recognize the motion the end result was teh the model was reqocnizing it 80% of the time. 
-<img width="700" alt="Screenshot 2024-02-26 at 15 35 22" src="https://github.com/Viktor1722/Court-Vision/assets/102257718/541daad7-6b68-43df-9b0e-a437cdb880cd">
+
+![Screenshot 2023-05-22 at 15 51 05](https://github.com/Viktor1722/Court-Vision/assets/102257718/a1361888-47f2-4e02-b645-cbc7d60c01ce)
